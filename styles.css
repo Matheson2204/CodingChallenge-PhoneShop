@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+#itemId {
+    
+    align-content: center;
+    
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.card {
+background-color:lightgrey;
+height: 100%;
+padding: 10px;
+
+
+}
+
+
+
+.card img {
+    max-height: 140px;
+    display: block;
+    border-radius: 10px, 10px, 0, 10
+
+}
+
+.card h5 {
+    text-align: center;
+    padding: 20px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card button {
+    
+    margin: 20px 0 0 50px;
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    background-color:forestgreen;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+}

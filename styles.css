@@ -49,19 +49,30 @@ padding: 10px;
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    padding: 10px
+    grid-template-columns: 5;
+    padding: 10px;
+    
+
+}
+.grid-container > .row > .col {
+border: solid 1px;
+text-align: center;
 
 }
 
-.grid-container > div {
-    border: solid 1px;
-
+.grid-container > #labelOverallPrice {
+text-align:end
 }
 
-.grid-item21 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    text-align: end;
-
+.grid-container button {
+    border: none;
+   text-decoration: underline red;
+   color: red; 
+   background-color: white;
+   font-size: 15px;
+   
 }
+
+
+
+

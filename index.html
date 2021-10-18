@@ -30,7 +30,7 @@
                   <p class="card-text" id='itemPrice'>$ 100.00</p>
                   <form>
                     <input 
-                     id="quantForm" type="number" class="form-control" aria-label="Quantity">
+                    type="number" class="form-control" aria-label="Quantity">
                     </input>
                   </form>
                   <button class="btn-primary" type="submit">Add to Cart</button>
@@ -44,15 +44,12 @@
               <div class="card-body">
                 <h5 class="card-title">HP Notebook</h5>
                 <p class="card-text">$ 299.00</p>
-                <form>
                     <form> 
                         <input 
                         type="number" class="form-control"  aria-label="Quantity">
                         </input>
                       </form>
-                </form>
                 <button class="btn-primary" type="submit">Add to Cart</button>
-                
               </div>
            </div>
          </div>
@@ -79,29 +76,43 @@
     <h1> Order Details</h1>
 
 <div class="grid-container">
-  <div class="grid-item1" >Item Name</div>
-  <div class="grid-item2">Quantity </div>
-  <div class="grid-item3" >Price</div>
-  <div class="grid-item4">Total</div>
-  <div class="grid-item5">Action</div>
-  <div class="grid-item6">Samsung J2 Pro</div>
-  <div class="grid-item7">7</div>
-  <div class="grid-item8">8</div>
-  <div class="grid-item9">9</div>
-  <div class="grid-item10">Remove</div>
-  <div class="grid-item11">Hp Notebook</div>
-  <div class="grid-item12">12</div>
-  <div class="grid-item13">13</div>
-  <div class="grid-item14">14</div>
-  <div class="grid-item15">Remove</div>
-  <div class="grid-item16">Panasonic T44 Lite</div>
-  <div class="grid-item17">17</div>
-  <div class="grid-item18">18</div>
-  <div class="grid-item19">19</div>
-  <div class="grid-item20">Remove</div>
-  <div class="grid-item21" id="totalPrice">Overall Total</div>
-  <div class="grid-item22">22</div>
-  <div class="grid-item23">Remove</div>
+  <div class="row row-cols-5">
+  <div class="col">Item Name</div>
+  <div class="col">Quantity </div>
+  <div class="col" >Price</div>
+  <div class="col">Total</div>
+  <div class="col">Action</div>
+  </div>
+  <div class="row row-cols-5">
+  <div class="col">Samsung J2 Pro</div>
+  <div class="col">7</div>
+  <div class="col">8</div>
+  <div class="col">9</div>
+  <div class="col">
+    <button class="btn delete-btn" type="button">Remove</button>
+  </div>
+  </div>
+    <div class="row row-cols-5">
+  <div class="col">Hp Notebook</div>
+  <div class="col col">12</div>
+  <div class="col">13</div>
+  <div class="col">14</div>
+  <div class="col">
+    <button class="btn delete-btn" type="button">Remove</button></div>
+  </div>
+<div class="row row-cols-5">
+  <div class="col">Panasonic T44 Lite</div>
+  <div class="col">17</div>
+  <div class="col">18</div>
+  <div class="col">19</div>
+  <div class="col">
+    <button class="btn delete-btn" type="button">Remove</button></div>
+  </div>
+<div class="row row-cols-3">
+  <div class="col col-md-7" id="labelPriceTotal">Overall Total</div>
+  <div class="col col-md-2.5" id="overallPrice">22</div>
+  <div class="col">
+    <button class="btn delete-btn" type="button">Remove</button></div>
   </div>
   </div>
   </section>

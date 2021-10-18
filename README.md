@@ -13,7 +13,7 @@ Dev Tools, Languages:
 - HTML
 - CSS
 - JavaScript
--Dev Tools:
+-DevTools:
 - BootStrap 
 
 

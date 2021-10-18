@@ -9,12 +9,10 @@ The Javascript functionality consist of 2 buttons for submit aka 'add to cart'(w
 Other functionality includes the ability to updating the grids boxes with new data for the card and add the price and quantity for a total price of the item. Then add all the items totals into a overall Total price (still working on that).
 
 Dev Tools, Languages:
-- Langages:
--   HTML
--   CSS
--   JavaScript
-- DevTools:
--   BootStrap 
+- HTML
+- CSS
+- JavaScript
+- BootStrap 
 
 
 

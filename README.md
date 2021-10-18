@@ -10,9 +10,9 @@ Other functionality includes the ability to updating the grids boxes with new da
 
 Dev Tools, Languages:
 -Langages:
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
 -DevTools:
 - BootStrap 
 
